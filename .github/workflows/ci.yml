@@ -11,7 +11,7 @@ jobs:
           jenkinsci/jfr-container-action@master
         with:
           command: run
-          jenkinsile: Jenkinsfile
+          jenkinsfile: Jenkinsfile
           pluginstxt: plugins.txt
           jcasc: jcasc.yml
           initHook: groovy.init.d
